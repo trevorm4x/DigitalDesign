@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Mar 25 10:08:18 2022
+# Process ID: 76563
+# Current directory: /home/trevormaxjs/lab_4/lab_4.runs/synth_1
+# Command line: vivado -log alu_regfile_vio_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu_regfile_vio_top.tcl
+# Log file: /home/trevormaxjs/lab_4/lab_4.runs/synth_1/alu_regfile_vio_top.vds
+# Journal file: /home/trevormaxjs/lab_4/lab_4.runs/synth_1/vivado.jou
+# Running On: trevormax-precision5550, OS: Linux, CPU Frequency: 1878.016 MHz, CPU Physical cores: 6, Host memory: 33270 MB
+#-----------------------------------------------------------
+source alu_regfile_vio_top.tcl -notrace

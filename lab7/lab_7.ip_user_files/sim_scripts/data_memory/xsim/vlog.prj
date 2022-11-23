@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../lab_5.gen/sources_1/ip/data_memory/data_memory_sim_netlist.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

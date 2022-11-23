@@ -1,0 +1,228 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Apr 15 11:25:41 2022
+# Process ID: 143046
+# Current directory: /home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.runs/synth_1
+# Command line: vivado -log pdatapath_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pdatapath_top.tcl
+# Log file: /home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.runs/synth_1/pdatapath_top.vds
+# Journal file: /home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.runs/synth_1/vivado.jou
+# Running On: trevormax-precision5550, OS: Linux, CPU Frequency: 3102.732 MHz, CPU Physical cores: 6, Host memory: 33270 MB
+#-----------------------------------------------------------
+source pdatapath_top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/utils_1/imports/synth_1/isntr_datapath_l6.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/utils_1/imports/synth_1/isntr_datapath_l6.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top pdatapath_top -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 143079
+WARNING: [Synth 8-2611] redeclaration of ansi port y is not allowed [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:183]
+WARNING: [Synth 8-2611] redeclaration of ansi port f is not allowed [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/eightbit_alu.v:32]
+WARNING: [Synth 8-2611] redeclaration of ansi port ovf is not allowed [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/eightbit_alu.v:33]
+WARNING: [Synth 8-2611] redeclaration of ansi port take_branch is not allowed [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/eightbit_alu.v:34]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2600.828 ; gain = 0.000 ; free physical = 16151 ; free virtual = 56213
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'pdatapath_top' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:21]
+INFO: [Synth 8-6157] synthesizing module 'debounce' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/debounce.v:8]
+WARNING: [Synth 8-7137] Register xnew0_reg in module debounce has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/debounce.v:41]
+WARNING: [Synth 8-7137] Register sig_debounced_out_reg in module debounce has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/debounce.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'debounce' (1#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/debounce.v:8]
+INFO: [Synth 8-6157] synthesizing module 'Adaptor_display' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:31]
+INFO: [Synth 8-6157] synthesizing module 'clockDivider10KHz' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'clockDivider10KHz' (2#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:78]
+INFO: [Synth 8-6157] synthesizing module 'displaySelector' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:100]
+INFO: [Synth 8-6155] done synthesizing module 'displaySelector' (3#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:100]
+INFO: [Synth 8-6157] synthesizing module 'activateDisplay' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:108]
+INFO: [Synth 8-226] default block is never used [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'activateDisplay' (4#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:108]
+INFO: [Synth 8-6157] synthesizing module 'binary_8to_BCD' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:124]
+WARNING: [Synth 8-6014] Unused sequential element eight_bit_val_reg was removed.  [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:143]
+INFO: [Synth 8-6155] done synthesizing module 'binary_8to_BCD' (5#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:124]
+INFO: [Synth 8-6157] synthesizing module 'bcdSelector' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:181]
+INFO: [Synth 8-226] default block is never used [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:185]
+INFO: [Synth 8-6155] done synthesizing module 'bcdSelector' (6#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:181]
+INFO: [Synth 8-6157] synthesizing module 'bcdTo7Segment' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:198]
+INFO: [Synth 8-6155] done synthesizing module 'bcdTo7Segment' (7#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:198]
+INFO: [Synth 8-6155] done synthesizing module 'Adaptor_display' (8#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/ip/adaptor_display.v:31]
+INFO: [Synth 8-6157] synthesizing module 'instruction_decoder' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_decoder' (9#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu_regfile' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/alu_regfile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'reg_file' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/reg_file.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'reg_file' (10#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/reg_file.v:24]
+INFO: [Synth 8-6157] synthesizing module 'eightbit_alu' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/eightbit_alu.v:23]
+INFO: [Synth 8-226] default block is never used [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/eightbit_alu.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'eightbit_alu' (11#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/eightbit_alu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu_regfile' (12#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/alu_regfile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.runs/synth_1/.Xil/Vivado-143046-trevormax-precision5550/realtime/data_memory_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (13#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.runs/synth_1/.Xil/Vivado-143046-trevormax-precision5550/realtime/data_memory_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'vio_0' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.runs/synth_1/.Xil/Vivado-143046-trevormax-precision5550/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_0' (14#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.runs/synth_1/.Xil/Vivado-143046-trevormax-precision5550/realtime/vio_0_stub.v:6]
+WARNING: [Synth 8-689] width (9) of port connection 'probe_in1' does not match port width (8) of module 'vio_0' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:157]
+WARNING: [Synth 8-689] width (9) of port connection 'probe_in2' does not match port width (8) of module 'vio_0' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:158]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio'. This will prevent further optimization [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:154]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'egiwu'. This will prevent further optimization [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:90]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'blast'. This will prevent further optimization [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:107]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'dm'. This will prevent further optimization [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:130]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'display'. This will prevent further optimization [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:79]
+WARNING: [Synth 8-3848] Net regfile_ReadAddress1 in module/entity pdatapath_top does not have driver. [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:110]
+WARNING: [Synth 8-3848] Net regfile_ReadAddress2 in module/entity pdatapath_top does not have driver. [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:111]
+WARNING: [Synth 8-3848] Net alu_input2_instr_src in module/entity pdatapath_top does not have driver. [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:115]
+INFO: [Synth 8-6155] done synthesizing module 'pdatapath_top' (15#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_top_lab6.v:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2600.828 ; gain = 0.000 ; free physical = 15819 ; free virtual = 55882
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2600.828 ; gain = 0.000 ; free physical = 16684 ; free virtual = 56747
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2600.828 ; gain = 0.000 ; free physical = 16684 ; free virtual = 56747
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2600.828 ; gain = 0.000 ; free physical = 16729 ; free virtual = 56792
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab_5.gen/sources_1/ip/data_memory/data_memory/data_memory_in_context.xdc] for cell 'dm'
+Finished Parsing XDC File [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab_5.gen/sources_1/ip/data_memory/data_memory/data_memory_in_context.xdc] for cell 'dm'
+Parsing XDC File [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab_5.gen/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'vio'
+Finished Parsing XDC File [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab_5.gen/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'vio'
+Parsing XDC File [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_lab6.xdc]
+Finished Parsing XDC File [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_lab6.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/pdatapath_lab6.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/pdatapath_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/pdatapath_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2664.699 ; gain = 0.000 ; free physical = 16706 ; free virtual = 56769
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2664.699 ; gain = 0.000 ; free physical = 16706 ; free virtual = 56769
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'dm' at clock pin 'clk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'vio' at clock pin 'clk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2664.699 ; gain = 63.871 ; free physical = 16777 ; free virtual = 56840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2664.699 ; gain = 63.871 ; free physical = 16777 ; free virtual = 56840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for dm. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for vio. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2664.699 ; gain = 63.871 ; free physical = 16777 ; free virtual = 56840
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'RegDst_reg' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'RegWrite_reg' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrc1_reg' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSrc2_reg' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUOp_reg' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:50]
+WARNING: [Synth 8-327] inferring latch for variable 'MemWrite_reg' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:51]
+WARNING: [Synth 8-327] inferring latch for variable 'MemToReg_reg' [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab6/lab6.srcs/sources_1/new/instruction_decoder.v:52]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2664.699 ; gain = 63.871 ; free physical = 16768 ; free virtual = 56832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 4     
+	   3 Input    4 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	                9 Bit    Registers := 6     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 7     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 5     
+	   4 Input    9 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 2     
+	   2 Input    7 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 14    
+	  15 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 9     
+	  15 Input    1 Bit        Muxes := 10    
+	   8 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2664.699 ; gain = 63.871 ; free physical = 16755 ; free virtual = 56823
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2664.699 ; gain = 63.871 ; free physical = 16562 ; free virtual = 56643
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2664.699 ; gain = 63.871 ; free physical = 16555 ; free virtual = 56636
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2664.699 ; gain = 63.871 ; free physical = 16556 ; free virtual = 56636
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------

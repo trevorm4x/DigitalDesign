@@ -1,0 +1,1714 @@
+Time resolution is 1 ps
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+$finish called at time : 140 ns : File "/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/testbench_1.v" Line 40
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'
+SIMULATION OF sll SUCCEEDED...!
+	M[10010054] = 00000040 (hex)
+Fetch at PC 00400034: instruction 1000fff2
+	Instruction 'beq'
+Fetch at PC 00400000: instruction 00221820
+	Instruction 'add'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400004: instruction 00221822
+	Instruction 'sub'
+	R[ 3] = ffffffff (hex)
+Fetch at PC 00400008: instruction 00221824
+	Instruction 'and'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 0040000c: instruction 00221825
+	Instruction 'or'
+	R[ 3] = 00000003 (hex)
+Fetch at PC 00400010: instruction 0022182a
+	Instruction 'slt'
+	R[ 3] = 00000001 (hex)
+Fetch at PC 00400014: instruction 0041182a
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400018: instruction 1140fff9
+	Instruction 'beq'
+Fetch at PC 0040001c: instruction 8d430000
+	Instruction 'lw'
+	R[ 3] = 00000000 (hex)
+Fetch at PC 00400020: instruction 8d430004
+	Instruction 'lw'
+	R[ 3] = 000000c8 (hex)
+Fetch at PC 00400024: instruction ad430008
+	Instruction 'sw'
+	M[10010008] = 000000c8 (hex)
+Fetch at PC 00400028: instruction 000218c0
+	Instruction 'add'
+	R[ 3] = 00000010 (hex)
+Fetch at PC 0040002c: instruction 00031880
+	R[ 3] = 00000040 (hex)
+Fetch at PC 00400030: instruction ad430054
+	Instruction 'sw'

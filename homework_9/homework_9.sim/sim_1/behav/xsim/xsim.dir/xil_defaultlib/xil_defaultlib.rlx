@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 19 2021
+02:56:52
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.sim/sim_1/behav/xsim/glbl.v,1644369344,verilog,,,,glbl,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sim_1/new/shifter_tb.v,1650135486,verilog,,,,shifter_tb,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/behavioral_shifter.v,1650138736,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/d_flip_flop.v,,behavioral_shifter,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/d_flip_flop.v,1650138206,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/four_to_one_mux.v,,d_flip_flop;nand_gate;not_gate,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/four_to_one_mux.v,1650138177,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v,,four_to_one_mux,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v,1650136050,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sim_1/new/shifter_tb.v,,structural_shifter,,,,,,,,

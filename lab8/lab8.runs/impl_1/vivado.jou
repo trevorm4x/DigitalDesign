@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Apr 27 20:43:25 2022
+# Process ID: 66529
+# Current directory: /home/trevormaxjs/Documents/Engineering/Digital_Design/lab8/lab8.runs/impl_1
+# Command line: vivado -log pdatapath_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pdatapath_top.tcl -notrace
+# Log file: /home/trevormaxjs/Documents/Engineering/Digital_Design/lab8/lab8.runs/impl_1/pdatapath_top.vdi
+# Journal file: /home/trevormaxjs/Documents/Engineering/Digital_Design/lab8/lab8.runs/impl_1/vivado.jou
+# Running On: trevormax-precision5550, OS: Linux, CPU Frequency: 4448.660 MHz, CPU Physical cores: 6, Host memory: 33270 MB
+#-----------------------------------------------------------
+source pdatapath_top.tcl -notrace

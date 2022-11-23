@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 19 2021
+02:56:52
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v,1650673728,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/testbench_1.v,,Adder;Adder4;Alu;ControlUnit;DataMemory;Datapath;InstructionMemory;Mux32Bit2To1;Mux5Bit2To1;PcRegister;RegisterFile;ShiftLeft;SignExtend,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/homework_10.sim/sim_1/behav/xsim/glbl.v,1644369344,verilog,,,,glbl,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/testbench_0.v,1650670700,verilog,,,,testbench_0,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/testbench_1.v,1650670425,verilog,,,,testbench_1,,,,,,,,

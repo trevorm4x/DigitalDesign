@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 19 2021
+02:56:52
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/ip/adaptor_display.v,1650032944,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/alu_regfile.v,,Adaptor_display;activateDisplay;bcdSelector;bcdTo7Segment;binary_8to_BCD;clockDivider10KHz;displaySelector,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/ip/debounce.v,1650032937,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/eightbit_alu.v,,debounce,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/alu_regfile.v,1650651523,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/eightbit_alu.v,,alu_regfile,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/eightbit_alu.v,1648216661,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/instruction_decoder.v,,eightbit_alu,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/instruction_decoder.v,1650650082,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/reg_file.v,,instruction_decoder,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/reg_file.v,1648216541,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab_7.srcs/sources_1/new/top_test.v,,reg_file,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab_5.gen/sources_1/ip/data_memory/synth/data_memory.vhd,1649428739,vhdl,,,,data_memory,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab_5.gen/sources_1/ip/vio_0/sim/vio_0.v,1650582548,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab_5.gen/sources_1/ip/data_memory/sim/data_memory.v,,vio_0,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab_7.gen/sources_1/ip/instr_mem/sim/instr_mem.v,1650650451,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab7.srcs/sources_1/new/alu_regfile.v,,instr_mem,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab_7.sim/sim_1/behav/xsim/glbl.v,1644369344,verilog,,,,glbl,,,,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab_7.srcs/sim_1/new/tb.v,1650647065,verilog,,,,tb,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab_7.srcs/sources_1/new/top_test.v,1650651483,verilog,,/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/lab_7.srcs/sim_1/new/tb.v,,top_test,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,
+/home/trevormaxjs/Documents/Engineering/Digital_Design/lab7/pdatapath_top_lab7.v,1650582556,verilog,,,,pdatapath_top,,,../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog,,,,,

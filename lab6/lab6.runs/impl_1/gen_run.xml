@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1650036339">
+  <File Type="RCFI_FILE" Name="pdatapath_top.rcfi"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pdatapath_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pdatapath_top_postroute_physopt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="pdatapath_top_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pdatapath_top_postplace_pwropt.dcp"/>
+  <File Type="PWROPT-DCP" Name="pdatapath_top_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="pdatapath_top_placed.dcp"/>
+  <File Type="OPT-DCP" Name="pdatapath_top_opt.dcp"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="pdatapath_top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="pdatapath_top.sysdef"/>
+  <File Type="BITSTR-MMI" Name="pdatapath_top.mmi"/>
+  <File Type="BITSTR-BMM" Name="pdatapath_top_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="pdatapath_top.nky"/>
+  <File Type="BITSTR-RBT" Name="pdatapath_top.rbt"/>
+  <File Type="REPORTS-TCL" Name="pdatapath_top_reports.tcl"/>
+  <File Type="RBD_FILE" Name="pdatapath_top.rbd"/>
+  <File Type="BITSTR-MSK" Name="pdatapath_top.msk"/>
+  <File Type="PA-TCL" Name="pdatapath_top.tcl"/>
+  <File Type="ROUTE-TIMING-PB" Name="pdatapath_top_timing_summary_routed.pb"/>
+  <File Type="NPI_FILE" Name="pdatapath_top.npi"/>
+  <File Type="BG-BIN" Name="pdatapath_top.bin"/>
+  <File Type="RNPI_FILE" Name="pdatapath_top.rnpi"/>
+  <File Type="BG-BGN" Name="pdatapath_top.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="pdatapath_top_routed_bb.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="pdatapath_top.vdi"/>
+  <File Type="CFI_FILE" Name="pdatapath_top.cfi"/>
+  <File Type="BG-DRC" Name="pdatapath_top.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="pdatapath_top_routed_error.dcp"/>
+  <File Type="PDI-FILE" Name="pdatapath_top.pdi"/>
+  <File Type="BG-BIT" Name="pdatapath_top.bit"/>
+  <File Type="OPT-HWDEF" Name="pdatapath_top.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pdatapath_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="pdatapath_top_routed.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/adaptor_display.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu_regfile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/debounce.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/eightbit_alu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/instruction_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reg_file.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/pdatapath_top_lab6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/isntr_datapath_l6.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pdatapath_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/pdatapath_lab6.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/isntr_datapath_l6.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="data_memory"/>
+  <BlockFileSet Type="BlockSrcs" Name="vio_0"/>
+</GenRun>

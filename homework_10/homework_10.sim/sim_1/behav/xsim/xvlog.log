@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+WARNING: [VRFC 10-3380] identifier 'data_memory_write_data' is used before its declaration [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:47]
+WARNING: [VRFC 10-3380] identifier 'data_memory_address' is used before its declaration [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:48]
+WARNING: [VRFC 10-3380] identifier 'data_memory_write' is used before its declaration [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:49]
+WARNING: [VRFC 10-3380] identifier 'control_unit_funct' is used before its declaration [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:161]
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-311] analyzing module PcRegister
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module Alu
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-311] analyzing module Adder4
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-311] analyzing module ShiftLeft
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/testbench_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_1

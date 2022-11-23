@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../lab_5.gen/sources_1/ip/vio_0/hdl/verilog" \
+"../../../../lab_5.gen/sources_1/ip/data_memory/sim/data_memory.v" \
+"../../../../lab_7.gen/sources_1/ip/instr_mem/sim/instr_mem.v" \
+"../../../../lab7.srcs/sources_1/new/alu_regfile.v" \
+"../../../../lab7.srcs/sources_1/new/eightbit_alu.v" \
+"../../../../lab7.srcs/sources_1/new/instruction_decoder.v" \
+"../../../../lab7.srcs/sources_1/new/reg_file.v" \
+"../../../../lab_7.srcs/sources_1/new/top_test.v" \
+"../../../../lab_7.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

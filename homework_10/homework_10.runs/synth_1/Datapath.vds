@@ -1,0 +1,254 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Apr 22 20:28:53 2022
+# Process ID: 224659
+# Current directory: /home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/homework_10.runs/synth_1
+# Command line: vivado -log Datapath.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Datapath.tcl
+# Log file: /home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/homework_10.runs/synth_1/Datapath.vds
+# Journal file: /home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/homework_10.runs/synth_1/vivado.jou
+# Running On: trevormax-precision5550, OS: Linux, CPU Frequency: 2849.922 MHz, CPU Physical cores: 6, Host memory: 33270 MB
+#-----------------------------------------------------------
+source Datapath.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/homework_10.srcs/utils_1/imports/synth_1/Datapath.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/homework_10.srcs/utils_1/imports/synth_1/Datapath.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Datapath -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 224681
+WARNING: [Synth 8-6901] identifier 'data_memory_write_data' is used before its declaration [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:47]
+WARNING: [Synth 8-6901] identifier 'data_memory_address' is used before its declaration [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:48]
+WARNING: [Synth 8-6901] identifier 'data_memory_write' is used before its declaration [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:49]
+WARNING: [Synth 8-6901] identifier 'control_unit_funct' is used before its declaration [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:161]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2598.863 ; gain = 0.000 ; free physical = 14731 ; free virtual = 57498
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:41]
+INFO: [Synth 8-6157] synthesizing module 'PcRegister' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:412]
+INFO: [Synth 8-6155] done synthesizing module 'PcRegister' (1#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:412]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:428]
+INFO: [Synth 8-251] Fetch at PC xxxxxxxx: instruction xxxxxxxx [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:466]
+WARNING: [Synth 8-567] referenced signal 'address' should be on the sensitivity list [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:465]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (2#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:428]
+INFO: [Synth 8-6157] synthesizing module 'Adder4' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:603]
+INFO: [Synth 8-6155] done synthesizing module 'Adder4' (3#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:603]
+INFO: [Synth 8-6157] synthesizing module 'Mux32Bit2To1' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:579]
+INFO: [Synth 8-6155] done synthesizing module 'Mux32Bit2To1' (4#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:579]
+INFO: [Synth 8-6157] synthesizing module 'Mux5Bit2To1' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:591]
+INFO: [Synth 8-6155] done synthesizing module 'Mux5Bit2To1' (5#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:591]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:473]
+INFO: [Synth 8-251] 	R[x] = xxxxxxxx (hex) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:499]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (6#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:473]
+INFO: [Synth 8-6157] synthesizing module 'Alu' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:511]
+INFO: [Synth 8-6155] done synthesizing module 'Alu' (7#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:511]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:535]
+INFO: [Synth 8-251] 	M[xxxxxxxx] = xxxxxxxx (hex) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:566]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (8#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:535]
+INFO: [Synth 8-6157] synthesizing module 'SignExtend' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:623]
+INFO: [Synth 8-6155] done synthesizing module 'SignExtend' (9#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:623]
+INFO: [Synth 8-6157] synthesizing module 'ShiftLeft' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:633]
+INFO: [Synth 8-6155] done synthesizing module 'ShiftLeft' (10#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:633]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:612]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (11#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:612]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:297]
+INFO: [Synth 8-251] 	Instruction 'add' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:339]
+INFO: [Synth 8-251] 	Instruction 'add' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:345]
+INFO: [Synth 8-251] 	Instruction 'sub' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:351]
+INFO: [Synth 8-251] 	Instruction 'slt' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:357]
+INFO: [Synth 8-251] 	Instruction 'and' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:363]
+INFO: [Synth 8-251] 	Instruction 'or' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:369]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:334]
+INFO: [Synth 8-251] 	Instruction 'lw' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:383]
+INFO: [Synth 8-251] 	Instruction 'sw' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:393]
+INFO: [Synth 8-251] 	Instruction 'beq' [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:403]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:320]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (12#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:297]
+INFO: [Synth 8-6155] done synthesizing module 'Datapath' (13#1) [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/Main_Datapath_1.v:41]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2598.863 ; gain = 0.000 ; free physical = 14463 ; free virtual = 57231
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2598.863 ; gain = 0.000 ; free physical = 15400 ; free virtual = 58169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15400 ; free virtual = 58168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15117 ; free virtual = 57886
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 6     
+	   3 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 545   
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 6     
+	  33 Input   32 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 288   
+	   5 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:44 ; elapsed = 00:01:44 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15037 ; free virtual = 57823
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:09 ; elapsed = 00:02:10 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15015 ; free virtual = 57809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:21 ; elapsed = 00:02:22 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15006 ; free virtual = 57801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:25 ; elapsed = 00:02:25 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15013 ; free virtual = 57800
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:25 ; elapsed = 00:02:25 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15013 ; free virtual = 57800
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15011 ; free virtual = 57797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15011 ; free virtual = 57797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15010 ; free virtual = 57796
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15010 ; free virtual = 57796
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    50|
+|3     |LUT1   |    21|
+|4     |LUT2   |   131|
+|5     |LUT3   |   110|
+|6     |LUT4   |   238|
+|7     |LUT5   |   148|
+|8     |LUT6   |  2841|
+|9     |MUXF7  |  1036|
+|10    |FDCE   |  8247|
+|11    |FDPE   |     7|
+|12    |IBUF   |     2|
+|13    |OBUF   |    65|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+-------------+------+
+|      |Instance        |Module       |Cells |
++------+----------------+-------------+------+
+|1     |top             |             | 12897|
+|2     |  data_memory   |DataMemory   | 11589|
+|3     |  adder         |Adder        |     8|
+|4     |  adder4        |Adder4       |    24|
+|5     |  alu           |Alu          |    20|
+|6     |  pc_register   |PcRegister   |  1156|
+|7     |  register_file |RegisterFile |    32|
++------+----------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15010 ; free virtual = 57796
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 2606.707 ; gain = 7.844 ; free physical = 15013 ; free virtual = 57799
+Synthesis Optimization Complete : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 2606.715 ; gain = 7.844 ; free physical = 15013 ; free virtual = 57799
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2606.715 ; gain = 0.000 ; free physical = 15099 ; free virtual = 57886
+INFO: [Netlist 29-17] Analyzing 1086 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Datapath' is not ideal for floorplanning, since the cellview 'DataMemory' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2662.734 ; gain = 0.000 ; free physical = 15030 ; free virtual = 57817
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: f20081f
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:33 ; elapsed = 00:02:29 . Memory (MB): peak = 2662.734 ; gain = 64.031 ; free physical = 15238 ; free virtual = 58025
+INFO: [Common 17-1381] The checkpoint '/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_10/homework_10.runs/synth_1/Datapath.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Datapath_utilization_synth.rpt -pb Datapath_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 22 20:31:34 2022...

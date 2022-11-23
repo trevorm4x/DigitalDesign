@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/behavioral_shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module behavioral_shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/d_flip_flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nand_gate
+INFO: [VRFC 10-311] analyzing module not_gate
+INFO: [VRFC 10-311] analyzing module d_flip_flop
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/four_to_one_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_to_one_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module structural_shifter
+INFO: [VRFC 10-2458] undeclared symbol d3_out, assumed default net type wire [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v:38]
+INFO: [VRFC 10-2458] undeclared symbol D3, assumed default net type wire [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v:39]
+INFO: [VRFC 10-2458] undeclared symbol d2_out, assumed default net type wire [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v:53]
+INFO: [VRFC 10-2458] undeclared symbol D2, assumed default net type wire [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v:54]
+INFO: [VRFC 10-2458] undeclared symbol d1_out, assumed default net type wire [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v:69]
+INFO: [VRFC 10-2458] undeclared symbol D1, assumed default net type wire [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v:70]
+INFO: [VRFC 10-2458] undeclared symbol d0_out, assumed default net type wire [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v:85]
+INFO: [VRFC 10-2458] undeclared symbol D0, assumed default net type wire [/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sources_1/new/structural_shifter.v:86]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/trevormaxjs/Documents/Engineering/Digital_Design/homework_9/homework_9.srcs/sim_1/new/shifter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter_tb

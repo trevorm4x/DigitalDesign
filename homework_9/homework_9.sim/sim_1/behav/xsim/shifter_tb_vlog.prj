@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../homework_9.srcs/sources_1/new/behavioral_shifter.v" \
+"../../../../homework_9.srcs/sources_1/new/d_flip_flop.v" \
+"../../../../homework_9.srcs/sources_1/new/four_to_one_mux.v" \
+"../../../../homework_9.srcs/sources_1/new/structural_shifter.v" \
+"../../../../homework_9.srcs/sim_1/new/shifter_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

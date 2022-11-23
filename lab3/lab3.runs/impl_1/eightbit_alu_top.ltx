@@ -1,0 +1,219 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "125000003"
+                    },
+                    {
+                        "type": "VIO_V2",
+                        "name": "vio",
+                        "spec": "labtools_vio_v3",
+                        "ipName": "vio",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "1BE27D511A4C50DC974F3E22D2C609B9",
+                        "pins": [
+                            {
+                                "name": "probe_in0",
+                                "id": 0,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "alu_output",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "alu_output[7]"
+                                            },
+                                            {
+                                                "name": "alu_output[6]"
+                                            },
+                                            {
+                                                "name": "alu_output[5]"
+                                            },
+                                            {
+                                                "name": "alu_output[4]"
+                                            },
+                                            {
+                                                "name": "alu_output[3]"
+                                            },
+                                            {
+                                                "name": "alu_output[2]"
+                                            },
+                                            {
+                                                "name": "alu_output[1]"
+                                            },
+                                            {
+                                                "name": "alu_output[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in1",
+                                "id": 1,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "alu_ovf_flag",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in2",
+                                "id": 2,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "alu_take_branch",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_out0",
+                                "id": 3,
+                                "type": "DATA",
+                                "direction": "OUT",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "alu_1st_input",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "alu_1st_input[7]"
+                                            },
+                                            {
+                                                "name": "alu_1st_input[6]"
+                                            },
+                                            {
+                                                "name": "alu_1st_input[5]"
+                                            },
+                                            {
+                                                "name": "alu_1st_input[4]"
+                                            },
+                                            {
+                                                "name": "alu_1st_input[3]"
+                                            },
+                                            {
+                                                "name": "alu_1st_input[2]"
+                                            },
+                                            {
+                                                "name": "alu_1st_input[1]"
+                                            },
+                                            {
+                                                "name": "alu_1st_input[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_out1",
+                                "id": 4,
+                                "type": "DATA",
+                                "direction": "OUT",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "alu_2nd_input",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "alu_2nd_input[7]"
+                                            },
+                                            {
+                                                "name": "alu_2nd_input[6]"
+                                            },
+                                            {
+                                                "name": "alu_2nd_input[5]"
+                                            },
+                                            {
+                                                "name": "alu_2nd_input[4]"
+                                            },
+                                            {
+                                                "name": "alu_2nd_input[3]"
+                                            },
+                                            {
+                                                "name": "alu_2nd_input[2]"
+                                            },
+                                            {
+                                                "name": "alu_2nd_input[1]"
+                                            },
+                                            {
+                                                "name": "alu_2nd_input[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_out2",
+                                "id": 5,
+                                "type": "DATA",
+                                "direction": "OUT",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "alu_operation_sel",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "alu_operation_sel[2]"
+                                            },
+                                            {
+                                                "name": "alu_operation_sel[1]"
+                                            },
+                                            {
+                                                "name": "alu_operation_sel[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

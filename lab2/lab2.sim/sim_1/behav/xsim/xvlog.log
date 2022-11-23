@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/trevormaxjs/Documents/Engineering/Digital_Design/lab2/lab2.srcs/sources_1/new/eightbit_palu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightbit_palu
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'f' is not allowed [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab2/lab2.srcs/sources_1/new/eightbit_palu.v:31]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'ovf' is not allowed [/home/trevormaxjs/Documents/Engineering/Digital_Design/lab2/lab2.srcs/sources_1/new/eightbit_palu.v:32]

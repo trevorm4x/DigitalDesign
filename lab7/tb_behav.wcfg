@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="699.001 ns"></ZoomEndTime>
+      <Cursor1Time time="96.660 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="181"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="logic" fp_name="/tb/pb_clk_debounced">
+      <obj_property name="ElementShortName">pb_clk_debounced</obj_property>
+      <obj_property name="ObjectShortName">pb_clk_debounced</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/regfile_WriteData">
+      <obj_property name="ElementShortName">regfile_WriteData[8:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile_WriteData[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/regfile_WriteAddress">
+      <obj_property name="ElementShortName">regfile_WriteAddress[1:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile_WriteAddress[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/alu_result">
+      <obj_property name="ElementShortName">alu_result[8:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/immediate">
+      <obj_property name="ElementShortName">immediate[7:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/pc">
+      <obj_property name="ElementShortName">pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/instruction">
+      <obj_property name="ElementShortName">instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/MemToReg">
+      <obj_property name="ElementShortName">MemToReg</obj_property>
+      <obj_property name="ObjectShortName">MemToReg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/rt_addr">
+      <obj_property name="ElementShortName">rt_addr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rt_addr[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/rd_addr">
+      <obj_property name="ElementShortName">rd_addr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/RegDst">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/alu_input1">
+      <obj_property name="ElementShortName">alu_input1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_input1[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/alu_input2">
+      <obj_property name="ElementShortName">alu_input2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_input2[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/Data_Mem_Out">
+      <obj_property name="ElementShortName">Data_Mem_Out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_Mem_Out[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
